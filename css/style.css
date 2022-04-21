@@ -1,0 +1,43 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+body{
+    background-color: #FAF7FD;
+    margin: 100px auto;
+    padding: auto;
+    align-items: center;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    color: #BB99DD;
+}
+img{
+    width: 128px;
+    height: 128px;
+    padding: 2px;
+    border: solid 1px #BB99DD;
+    border-radius: 100%;
+}
+body a{
+    font-weight: 400;
+    color: #BB99DD;
+    text-decoration: none;
+}
+.links{
+    margin: 20px auto;
+    padding: 20px;
+    width: 200px;
+    border: #BB99DD 1px solid;
+}
+.links > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #BB99DD;
+}
+a:active{
+    color:#BB99DD;
+}
+
+.linksicons a{
+    text-decoration: none;
+}
